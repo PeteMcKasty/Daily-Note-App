@@ -35,3 +35,7 @@ app.get('/notes', (req, res) => {
   
     res.json(newNote);
   });
+
+  app.listen(PORT, () => {
+    console.log(`App listening on PORT ${PORT}`);
+  });
